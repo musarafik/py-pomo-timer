@@ -4,7 +4,7 @@ from plyer import notification
 import time
 
 YES_PATTERN = re.compile(r"^(y+|yes+|yeah+|yep+|yup+|yea+|ya+|yee+)$", re.IGNORECASE)
-NO_PATTERN = re.compile(r"^(n+|no+|nah+|nope+|na+)$")
+NO_PATTERN = re.compile(r"^(n+|no+|nah+|nope+|na+)$", re.IGNORECASE)
 NUM_SECONDS_IN_MINUTE = 60
 NUM_WORKING_SESSIONS = 2
 
